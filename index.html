@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+
+    <!-- external-css sheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <!-- header section -->
+    <header>
+        <a href="./home.html">
+            <img class="logo" src="img/logo.png" />
+        </a>
+        <nav>
+            <ul class="nav_list">
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+
+        <!-- main-bg-img -->
+        <div class="main-banner-img">
+            <img src="img/main-bg.png" class="img-banner" alt="" srcset="">
+        </div>
+
+
+        <!-- floating button -->
+        <div class="floating-btns" style="display: none;">
+            <button class="main-floating-btn f-btn-theme"><img src="img/book.png" alt=""></button>
+            <button class="close-floating-btn f-btn-theme"><img src="img/close.png" alt=""></button>
+            <button class="buy-floating-btn f-btn-theme"><img src="img/buy.png" alt=""></button>
+            <button class="gallery-floating-btn f-btn-theme"><img src="img/gallery.png" alt=""></button>
+        </div>
+
+
+
+        <!-- work detail section -->
+        <section class="work-detail">
+            <h2>
+                My Work Details
+            </h2>
+
+            <div class="counter">
+                <div class="count-det">
+                    <p class="head number">64<br>
+                        <span class="sub">Potraits</span>
+                    </p>
+                </div>
+                <div class="blue-line">
+                </div>
+                <div class="count-det">
+                    <p class="head pad">48<br>
+                        <span class="sub">Clients</span>
+                    </p>
+                </div>
+                <div class="blue-line">
+                </div>
+                <div class="count-det">
+                    <p class="head num">363<br>
+                        <span class="sub">Hours Spent</span>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="featured-detail section-overlap">
+            <h2>
+                Featured Artwork
+            </h2>
+
+
+            <div class="featured">
+                <div class="art-card" id="art-card">
+                    <img src="img/cat-1-card.png" alt="" srcset="" onmouseover="displayPetDetails()">
+                    <div class="book-details" id="book-card-details">
+                        <p class="pet-name">Purrfect Poser</p>
+                        <p class="frame-size">35cm x 50cm</p>
+                        <div class="btns">
+                            <button class="sec-btn" id="cancel-buy">Cancel</button>
+                            <button class="primary-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="art-card">
+                    <img src="img/dog-card.png" alt="" srcset="" onmouseover="displayPetDetails2()">
+                    <div class="book-details" id="book-card-details">
+                        <p class="pet-name">Purrfect Poser</p>
+                        <p class="frame-size">35cm x 50cm</p>
+                        <div class="btns">
+                            <button class="sec-btn" id="cancel-buy">Cancel</button>
+                            <button class="primary-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="art-card">
+                    <img src="img/cat-2-card.png" alt="" srcset="" onmouseover="displayPetDetails3()">
+                    <div class="book-details" id="book-card-details">
+                        <p class="pet-name">Purrfect Poser</p>
+                        <p class="frame-size">35cm x 50cm</p>
+                        <div class="btns">
+                            <button class="sec-btn" id="cancel-buy">Cancel</button>
+                            <button class="primary-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="potrait-order">
+            <h2>
+                Order Your Potrait Today
+            </h2>
+            <p>
+                Get a hand-drawn, custom digital portrait of your pet. 
+                This is a great piece of personalized home art that features your beloved pet.
+            </p>
+
+            <div class="btn-center">
+                <button class="primary-btn" ><a href="book.html">Book A Potrait</a></button>
+            </div>
+
+        </section>
+
+        <section class="testimonials section-overlap">
+            <h2>
+                What Art Lovers Say 
+            </h2>
+            
+
+            <div class="featured">
+                <div class="test-card">
+                    <div class="review">
+                        <img src="img/quot.png" alt="">
+                        <p>One of the most talented people I have met who draws well and has a creative mind. 
+                            He is very good in hand drawing and can always capture the essence of emotion through his artwork.</p>
+                    </div>
+                    <div class="reviewer">
+                        <img src="img/Rectangle 49.png" alt="">
+                        <p>Yasitha Gamage</p>
+                    </div>
+                </div>
+                <div class="test-card">
+
+                    <div class="review">
+                        <img src="img/quot.png" alt="">
+                        <p>He is a true talent not just from his skill set, but also through his patience and dedication to always 
+                            do his best in delivering a quality masterpiece. He has done a portrait for my pet dog and it is truly impressive!  </p>
+                    </div>
+                    <div class="reviewer">
+                        <img src="img/Rectangle 51.png" alt="">
+                        <p>Dinith Kumudika</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <p class="btn-center">
+            <button class="sec-btn"><a href="contact.html">Get Connected</a></button>
+        </p>
+
+
+    </div>
+
+
+
+    <!-- footer section -->
+    <footer>
+        <div class="board">
+            <div class="icons">
+            <img class="social-icons" src="./img/insta.png"/>
+            <img class="social-icons" src="./img/youtube.png"/>
+            <img class="social-icons" src="./img/fb.png"/>
+          </div>
+          <div class="chalk-c">
+              <p class="c">Phone: +94 777756358</p>
+              <p class="c">© 2019 by Chalk Stories. All rights reserved. </p>
+                 <p class="c">E-mail: chalkstories.art@gmail.com  </p>
+          </div>
+
+
+
+        </div>
+    </footer>
+
+
+
+    <script src="js/home.js"></script>
+    
+</body>
+</html>

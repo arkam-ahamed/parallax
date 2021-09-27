@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+.book-banner-content {
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 350px;
+  top: 70px;
+}
+
+.banner {
+  width: 100%;
+  height: 350px;
+}
+
+.high-demand {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8%;
+}
+
+.copyright {
+  margin-left: 25px;
+}
+
+.rules {
+  text-align: justify;
+}
+
+@media screen and (max-width: 700px) {
+  .book-banner-content {
+    padding-top: 40px;
+    height: 310px;
+  }
+
+  .high-demand {
+    flex-direction: column;
+  }
+
+  .card-img {
+    width: 100%;
+  }
+}

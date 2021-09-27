@@ -1,0 +1,109 @@
+.banner {
+  width: 100%;
+  height: 350px;
+}
+
+.contact-banner-content {
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 350px;
+  top: 70px;
+}
+
+.detail-container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.contact-banner-content p {
+  margin: 30px 0 30px 0;
+}
+
+.contact-contents {
+  padding: 0 0 20px 10%;
+}
+
+.contact-contents img {
+  width: 280px;
+}
+
+.contact-contents p {
+  width: 40%;
+  text-align: justify;
+}
+
+.contact-form {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 50%;
+}
+
+.form-fullName {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+input {
+  background-color: transparent;
+  border: 0.2px solid #525252;
+  border-radius: px;
+  padding: 15px 0 15px 20px;
+}
+textarea {
+  background-color: transparent;
+  border: 0.2px solid #525252;
+  padding: 15px 0 5px 20px;
+}
+
+.form-mail {
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.form-number {
+  width: 39.5%;
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.form-message {
+  width: 80%;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  /* float: right; */
+  margin-left: 60%;
+  margin-top: 5px;
+}
+
+.contact-h2 {
+  text-align: left;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 700px) {
+  .contact-banner-content h1 {
+    padding-top: 40px;
+  }
+
+  .detail-container {
+    display: block;
+  }
+  .contact-contents p {
+    width: 80%;
+  }
+
+  .contact-form {
+    margin-left: 40px;
+  }
+}
